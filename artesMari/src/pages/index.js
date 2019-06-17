@@ -11,6 +11,7 @@ import pic04 from '../assets/images/pic04.jpg'
 import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 import marinha from '../assets/images/marinha.jpg'
+import ferrugem from '../assets/images/ferrugem.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -33,16 +34,16 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage: `url(${marinha})`}}>
                             <header className="major">
                                 <h3>Marinha</h3>
-                                <p>2018</p>
-                            </header>
-                            <Link to="/marinha" className="link primary"></Link>
-                        </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
-                            <header className="major">
-                                <h3>Tempus</h3>
-                                <p>feugiat amet tempus</p>
+                                <p>2018-2019</p>
                             </header>
                             <Link to="/landing" className="link primary"></Link>
+                        </article>
+                        <article style={{backgroundImage: `url(${ferrugem})`}}>
+                            <header className="major">
+                                <h3>Praias</h3>
+                                <p>2018-2019</p>
+                            </header>
+                            <Link to="/praias" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
