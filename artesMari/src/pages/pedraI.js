@@ -1,10 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import marinhaII from '../assets/images/marinhaII.jpg'
+import pedra from '../assets/images/pedrafurada.jpg'
 
 
-const MarinhaII = (props) => (
+const PedraI = (props) => (
     <Layout>
         <Helmet>
             <title>Generic - Forty by HTML5 UP</title>
@@ -15,9 +15,9 @@ const MarinhaII = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Marinha II</h1>
+                        <h1>Pedra Furada</h1>
                     </header>
-                    <span className="image main"><img src={marinhaII} alt="" /></span>
+                    <span className="image main"><img src={pedra} alt="" /></span>
                     <p>paragrafo descrevendo este quadro</p>
                  
                 </div>
@@ -27,4 +27,4 @@ const MarinhaII = (props) => (
     </Layout>
 )
 
-export default MarinhaII
+export default PedraI

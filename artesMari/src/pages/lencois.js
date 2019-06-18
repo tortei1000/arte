@@ -1,10 +1,10 @@
 import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import marinhaII from '../assets/images/marinhaII.jpg'
+import lencois from '../assets/images/lencois.jpg'
 
 
-const MarinhaII = (props) => (
+const Lencois = (props) => (
     <Layout>
         <Helmet>
             <title>Generic - Forty by HTML5 UP</title>
@@ -15,9 +15,9 @@ const MarinhaII = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Marinha II</h1>
+                        <h1>Lencois Maranhenses</h1>
                     </header>
-                    <span className="image main"><img src={marinhaII} alt="" /></span>
+                    <span className="image main"><img src={lencois} alt="" /></span>
                     <p>paragrafo descrevendo este quadro</p>
                  
                 </div>
@@ -27,4 +27,4 @@ const MarinhaII = (props) => (
     </Layout>
 )
 
-export default MarinhaII
+export default Lencois

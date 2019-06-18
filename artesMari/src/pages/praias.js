@@ -4,7 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
 import ferrugem from '../assets/images/ferrugem.jpg'
-import marinhaII from '../assets/images/marinhaII.jpg'
+import garopaba from '../assets/images/garopaba.jpg'
+import lencois from '../assets/images/lencois.jpg'
+import espelho from '../assets/images/praiadoespelho.jpg'
 
 const Praias = (props) => (
     <Layout>
@@ -26,7 +28,7 @@ const Praias = (props) => (
             </section>
             <section id="two" className="spotlights">
                 <section>
-                    <Link to="/generic" className="image">
+                    <Link to="/ferrugem" className="image">
                         <img src={ferrugem} alt="" />
                     </Link>
                     <div className="content">
@@ -36,23 +38,55 @@ const Praias = (props) => (
                             </header>
                             <p>Pintado em 2019 a oleo. Tela 55 x 80.  Inspirado em Praia da Ferrugem, SC</p>
                             <ul className="actions">
-                                <li><Link to="/generic" className="button">Veja Mais</Link></li>
+                                <li><Link to="/ferrugem" className="button">Veja Mais</Link></li>
                             </ul>
                         </div>
                     </div>
                 </section>
                 <section>
-                    <Link to="/generic" className="image">
-                        <img src={marinhaII} alt="" />
+                    <Link to="/garopaba" className="image">
+                        <img src={garopaba} alt="" />
                     </Link>
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Marinha II</h3>
+                                <h3>Garopaba</h3>
                             </header>
-                            <p>2018 tela oleo 50 x 60</p>
+                            <p>2018 tela oleo 70 x 90</p>
                             <ul className="actions">
-                                <li><Link to="/marinhaII" className="button">Learn more</Link></li>
+                                <li><Link to="/garopaba" className="button">Veja Mais</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/lencois" className="image">
+                        <img src={lencois} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Lencois Maranhenses</h3>
+                            </header>
+                            <p>2019 tela oleo 70 x 1,50</p>
+                            <ul className="actions">
+                                <li><Link to="/lencois" className="button">Veja Mais</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/espelho" className="image">
+                        <img src={espelho} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Praia do Espelho</h3>
+                            </header>
+                            <p>2018 tela oleo 60 x 1,00</p>
+                            <ul className="actions">
+                                <li><Link to="/espelho" className="button">Veja Mais</Link></li>
                             </ul>
                         </div>
                     </div>

@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
-import BannerLanding from '../components/BannerLanding'
+
 import marinha from '../assets/images/marinha.jpg'
 import marinhaII from '../assets/images/marinhaII.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import marinhaIII from '../assets/images/marinhaIII.jpg'
 
 const Landing = (props) => (
     <Layout>
@@ -15,7 +14,6 @@ const Landing = (props) => (
             <meta name="description" content="Landing Page" />
         </Helmet>
 
-        {/* <BannerLanding /> */}
 
         <div id="main">
             <section id="one">
@@ -54,7 +52,23 @@ const Landing = (props) => (
                             </header>
                             <p>2018 tela oleo 50 x 60</p>
                             <ul className="actions">
-                                <li><Link to="/marinhaII" className="button">Learn more</Link></li>
+                                <li><Link to="/marinhaII" className="button">Veja Mais</Link></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <Link to="/generic" className="image">
+                        <img src={marinhaIII} alt="" />
+                    </Link>
+                    <div className="content">
+                        <div className="inner">
+                            <header className="major">
+                                <h3>Marinha III</h3>
+                            </header>
+                            <p>2019 tela oleo 45 x 55</p>
+                            <ul className="actions">
+                                <li><Link to="/marinhaIII" className="button">Veja Mais</Link></li>
                             </ul>
                         </div>
                     </div>

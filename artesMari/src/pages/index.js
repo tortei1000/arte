@@ -12,6 +12,10 @@ import pic05 from '../assets/images/pic05.jpg'
 import pic06 from '../assets/images/pic06.jpg'
 import marinha from '../assets/images/marinha.jpg'
 import ferrugem from '../assets/images/ferrugem.jpg'
+import amanhecer from '../assets/images/amanhecer.jpg'
+import barcos from '../assets/images/barcos.jpg'
+import pedraII from '../assets/images/enseada.jpg'
+import onda from '../assets/images/onda.jpg'
 
 class HomeIndex extends React.Component {
     render() {
@@ -45,33 +49,33 @@ class HomeIndex extends React.Component {
                             </header>
                             <Link to="/praias" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{backgroundImage: `url(${amanhecer})`}}>
                             <header className="major">
-                                <h3>Magna</h3>
-                                <p>Lorem etiam nullam</p>
+                                <h3>Amanhecer/Anoitecer</h3>
+                                <p>2018</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/amanhecer" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{backgroundImage: `url(${barcos})`}}>
                             <header className="major">
-                                <h3>Ipsum</h3>
-                                <p>Nisl sed aliquam</p>
+                                <h3>Barcos</h3>
+                                <p>2017-2019</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/barcos" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        <article style={{backgroundImage: `url(${pedraII})`}}>
                             <header className="major">
-                                <h3>Consequat</h3>
-                                <p>Ipsum dolor sit amet</p>
+                                <h3>Pedras</h3>
+                                <p>2017-2018</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/pedras" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+                        <article style={{backgroundImage: `url(${onda})`}}>
                             <header className="major">
-                                <h3>Etiam</h3>
-                                <p>Feugiat amet tempus</p>
+                                <h3>Onda</h3>
+                                <p>2017</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/onda" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
