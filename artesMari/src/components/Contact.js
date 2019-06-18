@@ -6,7 +6,7 @@ const Contact = (props) => (
             <section>
                 <form method="post" action="#">
                     <div className="field half first">
-                        <label htmlFor="name">Name</label>
+                        <label htmlFor="name">Nome</label>
                         <input type="text" name="name" id="name" />
                     </div>
                     <div className="field half">
@@ -14,7 +14,7 @@ const Contact = (props) => (
                         <input type="text" name="email" id="email" />
                     </div>
                     <div className="field">
-                        <label htmlFor="message">Message</label>
+                        <label htmlFor="message">Mensagem</label>
                         <textarea name="message" id="message" rows="6"></textarea>
                     </div>
                     <ul className="actions">
@@ -28,7 +28,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-envelope"></span>
                         <h3>Email</h3>
-                        <a href="#">mharylene@gmail.com</a>
+                        <a href="mailto:mharylene@gmail.com">mharylene@gmail.com</a>
                     </div>
                 </section>
                 <section>
