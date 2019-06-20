@@ -18,7 +18,7 @@ const OndaI = (props) => (
                         <h1>Onda</h1>
                     </header>
                     <span className="image main"><img src={onda} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Nesta pintura, foi enfatizado os tons que dão transparência à água.</p>
                  
                 </div>
             </section>

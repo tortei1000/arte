@@ -15,10 +15,10 @@ const AmanhecerNaPraia = (props) => (
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Amanhecer</h1>
+                        <h1>Amanhecer na Praia</h1>
                     </header>
                     <span className="image main"><img src={amanhecer} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Amanhecer em Garopaba! Ainda estava escuro! E fiz esta foto, para realizar uma pintura cheia de contrastes</p>
                  
                 </div>
             </section>

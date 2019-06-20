@@ -18,7 +18,7 @@ const Espelho = (props) => (
                         <h1>Praia do Espelho</h1>
                     </header>
                     <span className="image main"><img src={espelho} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Essa composição foi feita com 4 fotos ,no intuito de revelar a calma do mar e o tom dramático do céu.</p>
                  
                 </div>
             </section>

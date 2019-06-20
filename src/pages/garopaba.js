@@ -18,7 +18,7 @@ const Garopaba = (props) => (
                         <h1>Garopaba</h1>
                     </header>
                     <span className="image main"><img src={garopaba} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Composição baseada em foto da praia de Garopaba.</p>
                  
                 </div>
             </section>

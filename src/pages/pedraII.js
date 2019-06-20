@@ -18,7 +18,7 @@ const PedraII = (props) => (
                         <h1>Enseada</h1>
                     </header>
                     <span className="image main"><img src={pedraII} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Nesta pintura , baseada em uma foto , dei mais intensidade à cor do céu, tornando-o mais dramático.</p>
                  
                 </div>
             </section>

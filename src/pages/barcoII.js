@@ -18,7 +18,7 @@ const BarcoII = (props) => (
                         <h1>Barco Atracado</h1>
                     </header>
                     <span className="image main"><img src={barcoII} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Inspirado numa foto de calendário.</p>
                  
                 </div>
             </section>

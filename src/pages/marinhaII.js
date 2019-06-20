@@ -18,7 +18,7 @@ const MarinhaII = (props) => (
                         <h1>Marinha II</h1>
                     </header>
                     <span className="image main"><img src={marinhaII} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Aqui nesta tela, quis enfatizar os corais nas águas transparentes, das praias do Nordeste.</p>
                  
                 </div>
             </section>

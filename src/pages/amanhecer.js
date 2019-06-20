@@ -32,7 +32,7 @@ const Amanhecer = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Amanhecer</h3>
+                                <h3>Amanhecer na Praia</h3>
                             </header>
                             <p>Pintado em 2018 a oleo. Tela 70 x 90.  Inspirado em Garopaba, SC</p>
                             <ul className="actions">
@@ -48,7 +48,7 @@ const Amanhecer = (props) => (
                     <div className="content">
                         <div className="inner">
                             <header className="major">
-                                <h3>Anoitecer na Praia</h3>
+                                <h3>Amanhecer em Garopaba</h3>
                             </header>
                             <p>2018 tela oleo 1,00 x 80</p>
                             <ul className="actions">

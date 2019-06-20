@@ -18,7 +18,7 @@ const Ferrugem = (props) => (
                         <h1>Praia da Ferrugem</h1>
                     </header>
                     <span className="image main"><img src={ferrugem} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Nascer do sol em tons fortes.</p>
                  
                 </div>
             </section>

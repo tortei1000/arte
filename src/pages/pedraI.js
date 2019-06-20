@@ -18,7 +18,7 @@ const PedraI = (props) => (
                         <h1>Pedra Furada</h1>
                     </header>
                     <span className="image main"><img src={pedra} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Realizei a colagem de 4 fotos para esta pintura, que  tornou-se surreal.</p>
                  
                 </div>
             </section>

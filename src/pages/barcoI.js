@@ -18,7 +18,7 @@ const BarcoI = (props) => (
                         <h1>Barcos</h1>
                     </header>
                     <span className="image main"><img src={barcos} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Neste estudo quis usar a intensidade de luz nas águas e seu reflexo.</p>
                  
                 </div>
             </section>

@@ -18,7 +18,7 @@ const Lencois = (props) => (
                         <h1>Lencois Maranhenses</h1>
                     </header>
                     <span className="image main"><img src={lencois} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Suavidade nos tons, para fazer contraste com a água .</p>
                  
                 </div>
             </section>

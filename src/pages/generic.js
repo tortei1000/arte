@@ -18,7 +18,7 @@ const Generic = (props) => (
                         <h1>Marinha I</h1>
                     </header>
                     <span className="image main"><img src={marinha} alt="" /></span>
-                    <p>paragrafo descrevendo este quadro</p>
+                    <p>Está pintura foi baseada em duas fotos sobrepostas, transformando assim em uma nova composição</p>
                  
                 </div>
             </section>
